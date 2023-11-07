@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 1.1em;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+}
+header {
+    background-color: rgb(162, 162, 202);
+    text-align: center;
+}
+main {
+    background-color: rgba(47, 47, 48, 0.425);
+    border:  black solid 2px;
+    content: padding 10px 50px;
+}
+footer {
+    background-color: rgb(177, 177, 255);
+    padding: 10px 50px;
+}
+#about{
+    background-color: rgba(69, 109, 104, 0.767);
+    padding: 10px 50px;
+    text-align: center;
+}
+#articles {
+    background-color:rgba(87, 139, 133, 0.767);
+    padding: 10px 50px;
+}
+p {
+    text-align: justify;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    margin-bottom: 20px;
+    padding: 1px 50px;
+}
+h1 {
+    text-transform: uppercase;
+    color:rgb(43, 46, 45);
+    font-size: 2rem;
+    font-style: italic;
+}
+
+title {
+    font-size: 1.5rem;
+    text-decoration: overline;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+a:link{
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
+
+a:active{
+    color: blue  ;
+}
+a:visited {
+    color: rgb(2, 48, 21);
+}
+a:hover {
+    color:black;
+    text-decoration: underline;
+}
+a:focus{
+    color: rgb(187, 187, 113);
+}
+p:lang(ru){
+    font-style: italic;
+}
+p:lang(en){
+    text-decoration: dashed;
+}
+
+ol li:nth-child(){
+    background-color:aquamarine ;
+}
+
+#about h2:after{
+    content: ":D";
+    color: blue;
+    font-size: 12px;
+    margin-left: 15px;
+    text-decoration: none;
+}
+#about img{
+    border-radius: 50%;
+}
+
+#about .avatar{
+    border-radius: none;
+}
+.important-notice::before {
+    content: "Важно!";
+    display: inline-block;
+    background-color: #ff5733; /* Цвет фона */
+    color: #ffffff; /* Цвет текста */
+    padding: 5px 10px; /* Отступы внутри псевдоэлемента */
+    border: 2px solid #ff5733; /* Граница */
+    border-radius: 5px; /* Скругление углов */
+    margin-right: 10px; /* Отступ справа от текста */
+  }
+  img {
+    border: 3px solid #00a8e1;
+    border-radius: 10px;
+    box-shadow: 10px rgb(0, 217, 255);
+    }
+    .bill-table {
+    border: 5px red solid;
+    }
+    .bill-table tr{
+    border: 1px rgba(0, 0, 0, 0.116) solid;
+    }
+    .bill-table th{
+        border-bottom: 1px rgba(0, 0, 0, 0.116) solid;
+        padding: 5px;
+        }
+    .bill-table tr: :nth-child(odd){
+        
+    }
